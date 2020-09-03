@@ -12,9 +12,11 @@ import {
 } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { HeroComponent } from './hero/hero.component';
+import { Section1Component } from './section1/section1.component';
+import { ImgTextVerticalComponent } from './components/img-text-vertical/img-text-vertical.component';
 
 @NgModule({
-  declarations: [AppComponent, HeroComponent],
+  declarations: [AppComponent, HeroComponent, Section1Component, ImgTextVerticalComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
