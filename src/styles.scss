@@ -1,1 +1,16 @@
+@import "themes";
+
+@import "~@nebular/theme/styles/globals";
+
+@include nb-install() {
+  @include nb-theme-global();
+}
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "museo-sans";
+  src: url("assets/fonts/museo-sans-300.ttf");
+}
+@font-face {
+  font-family: "museo-sans-title";
+  src: url("assets/fonts/museo-sans-500.ttf");
+}
