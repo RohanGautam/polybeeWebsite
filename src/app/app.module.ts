@@ -4,7 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
+import {
+  NbThemeModule,
+  NbLayoutModule,
+  NbCardModule,
+  NbButtonModule,
+} from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { HeroComponent } from './hero/hero.component';
 
@@ -18,6 +23,7 @@ import { HeroComponent } from './hero/hero.component';
     NbLayoutModule,
     NbEvaIconsModule,
     NbCardModule,
+    NbButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
