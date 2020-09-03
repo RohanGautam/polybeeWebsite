@@ -1,0 +1,16 @@
+.hero {
+  border: 2px solid black;
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.impactText {
+  font-size: 10vh;
+  line-height: 10vh;
+  text-align: center;
+
+  color: rgb(51, 153, 255);
+  //   color: rgb(0, 128, 255);
+}
