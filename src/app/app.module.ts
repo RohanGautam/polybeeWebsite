@@ -15,9 +15,10 @@ import { HeroComponent } from './hero/hero.component';
 import { Section1Component } from './section1/section1.component';
 import { ImgTextVerticalComponent } from './components/img-text-vertical/img-text-vertical.component';
 import { Section2Component } from './section2/section2.component';
+import { PilotTrailsComponent } from './pilot-trails/pilot-trails.component';
 
 @NgModule({
-  declarations: [AppComponent, HeroComponent, Section1Component, ImgTextVerticalComponent, Section2Component],
+  declarations: [AppComponent, HeroComponent, Section1Component, ImgTextVerticalComponent, Section2Component, PilotTrailsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
