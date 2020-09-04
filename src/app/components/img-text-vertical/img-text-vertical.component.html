@@ -1,13 +1,17 @@
-<div data-aos="zoom-in">
-  <div class="imgTextVertical"></div>
-  <nb-card>
-    <nb-card-body>
-      <div class="row">
-        <img class="img-fluid" [src]="image" alt="" />
-      </div>
-      <div class="row">
+<div class="customcard" data-aos="zoom-in">
+  <!-- <div class="imgTextVertical"></div> -->
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center text-center">
+      <img class="img-fluid" [src]="image" alt="" />
+    </div>
+    <div class="col text-center">
+      <p class="description">
         {{ text }}
-      </div>
+      </p>
+    </div>
+  </div>
+  <!-- <nb-card>
+    <nb-card-body>
     </nb-card-body>
-  </nb-card>
+  </nb-card> -->
 </div>
