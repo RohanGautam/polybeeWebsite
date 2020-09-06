@@ -9,6 +9,7 @@ import {
   NbLayoutModule,
   NbCardModule,
   NbButtonModule,
+  NbIconModule,
 } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { HeroComponent } from './hero/hero.component';
@@ -20,7 +21,16 @@ import { PartnersComponent } from './partners/partners.component';
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent, HeroComponent, Section1Component, ImgTextVerticalComponent, Section2Component, PilotTrailsComponent, PartnersComponent, ContactComponent],
+  declarations: [
+    AppComponent,
+    HeroComponent,
+    Section1Component,
+    ImgTextVerticalComponent,
+    Section2Component,
+    PilotTrailsComponent,
+    PartnersComponent,
+    ContactComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -30,6 +40,7 @@ import { ContactComponent } from './contact/contact.component';
     NbEvaIconsModule,
     NbCardModule,
     NbButtonModule,
+    NbIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
