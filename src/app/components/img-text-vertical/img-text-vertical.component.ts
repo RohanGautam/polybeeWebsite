@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ImgTextVerticalComponent implements OnInit {
   // image = 'assets/images/plot-viewer.png';
   @Input() image: string;
-  @Input() text: string;
+  @Input() text: string = '';
   @Input() title: string = '';
   @Input() imgWidth: string = '100px';
   // text =

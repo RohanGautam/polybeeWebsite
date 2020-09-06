@@ -19,6 +19,8 @@ import { Section2Component } from './section2/section2.component';
 import { PilotTrailsComponent } from './pilot-trails/pilot-trails.component';
 import { PartnersComponent } from './partners/partners.component';
 import { ContactComponent } from './contact/contact.component';
+import { MediaComponent } from './media/media.component';
+import { MediaTileComponent } from './media/media-tile/media-tile.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { ContactComponent } from './contact/contact.component';
     PilotTrailsComponent,
     PartnersComponent,
     ContactComponent,
+    MediaComponent,
+    MediaTileComponent,
   ],
   imports: [
     BrowserModule,
