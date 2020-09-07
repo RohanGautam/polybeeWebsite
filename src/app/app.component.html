@@ -15,7 +15,6 @@
         />
       </div>
     </div>
-    <button nbButton (click)="scroll(pilot)">go to ele</button>
     <nb-actions size="small">
       <nb-action
         [icon]="sideBarShown ? 'close-outline' : 'menu-outline'"
@@ -26,8 +25,23 @@
 
   <nb-sidebar right tag="right-sidebar" state="collapsed" fixed>
     <!-- <nb-menu [items]="sidebarMenuItems"> </nb-menu> -->
-    <div style="cursor: pointer" (click)="scroll(section1)">
+    <div class="sidebarMenuItem" (click)="scroll(hero)">
       <h6><nb-icon icon="home-outline"></nb-icon> Home</h6>
+    </div>
+    <div class="sidebarMenuItem" (click)="scroll(section1)">
+      <h6><nb-icon icon="activity-outline"></nb-icon> Industry problems</h6>
+    </div>
+    <div class="sidebarMenuItem" (click)="scroll(section2)">
+      <h6><nb-icon icon="bulb-outline"></nb-icon> Our solutions</h6>
+    </div>
+    <div class="sidebarMenuItem" (click)="scroll(partners)">
+      <h6><nb-icon icon="compass-outline"></nb-icon> Our partners</h6>
+    </div>
+    <div class="sidebarMenuItem" (click)="scroll(media)">
+      <h6><nb-icon icon="clipboard-outline"></nb-icon> Our advisors</h6>
+    </div>
+    <div class="sidebarMenuItem" (click)="scroll(contact)">
+      <h6><nb-icon icon="phone-call-outline"></nb-icon> Contact</h6>
     </div>
   </nb-sidebar>
 

@@ -22,6 +22,8 @@ export class AppComponent implements OnInit {
     this.sideBarShown = !this.sideBarShown;
   }
   scroll(el: HTMLElement) {
+    // @todo center doest work as well on mobile
     el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    this.toggleSidebar();
   }
 }
