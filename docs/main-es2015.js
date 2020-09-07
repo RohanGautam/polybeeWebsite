@@ -185,7 +185,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_div_click_24_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r7); const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](49); return ctx.scroll(_r5); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "h6");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "nb-icon", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, " Our advisors");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, " Media coverage");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 7);

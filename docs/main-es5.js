@@ -440,7 +440,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "nb-icon", 12);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, " Our advisors");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, " Media coverage");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
