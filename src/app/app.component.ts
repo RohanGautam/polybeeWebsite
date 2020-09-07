@@ -78,8 +78,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   scroll(el: HTMLElement) {
-    // @todo center doest work as well on mobile
-    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     this.toggleSidebar();
   }
 }
