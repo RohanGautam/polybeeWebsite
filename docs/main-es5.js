@@ -277,6 +277,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }));
           scrollDown$.subscribe(function (_) {
             _this.headerShown = false;
+
+            if (_this.sideBarShown) {
+              _this.toggleSidebar();
+            }
           });
           scrollUp$.subscribe(function (_) {
             _this.headerShown = true;

@@ -122,6 +122,9 @@ class AppComponent {
         const scrollDown$ = scroll$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["filter"])((direction) => direction === Direction.Down));
         scrollDown$.subscribe((_) => {
             this.headerShown = false;
+            if (this.sideBarShown) {
+                this.toggleSidebar();
+            }
         });
         scrollUp$.subscribe((_) => {
             this.headerShown = true;
