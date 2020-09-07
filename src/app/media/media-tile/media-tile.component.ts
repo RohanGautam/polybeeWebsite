@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MediaTileComponent implements OnInit {
   @Input() image: string;
-  @Input() link: string;
+  @Input() link: string = null;
+  @Input() description: string = null;
 
   constructor() {}
 

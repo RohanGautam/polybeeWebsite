@@ -3,8 +3,14 @@
   data-aos="fade-up"
 >
   <img class="img-fluid" [src]="image" alt="" />
+
+  <p *ngIf="description" class="mediaAddOn mediaDescription text-center">
+    {{ description }}
+  </p>
+
   <a
-    class="mediaLink"
+    *ngIf="link"
+    class="mediaAddOn"
     nbButton
     size="large"
     outline
