@@ -24,6 +24,7 @@ import { PartnersComponent } from './partners/partners.component';
 import { ContactComponent } from './contact/contact.component';
 import { MediaComponent } from './media/media.component';
 import { MediaTileComponent } from './media/media-tile/media-tile.component';
+import { SolutionComponentComponent } from './components/solution-component/solution-component.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { MediaTileComponent } from './media/media-tile/media-tile.component';
     ContactComponent,
     MediaComponent,
     MediaTileComponent,
+    SolutionComponentComponent,
   ],
   imports: [
     BrowserModule,
