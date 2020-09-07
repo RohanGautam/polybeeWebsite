@@ -66,6 +66,9 @@ export class AppComponent implements OnInit, AfterViewInit {
 
     scrollDown$.subscribe((_) => {
       this.headerShown = false;
+      if (this.sideBarShown) {
+        this.toggleSidebar();
+      }
     });
     scrollUp$.subscribe((_) => {
       this.headerShown = true;
