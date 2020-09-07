@@ -49,7 +49,6 @@ import { MediaTileComponent } from './media/media-tile/media-tile.component';
     NbButtonModule,
     NbIconModule,
     NbSidebarModule.forRoot(),
-    NbMenuModule.forRoot(),
     NbActionsModule,
   ],
   providers: [],

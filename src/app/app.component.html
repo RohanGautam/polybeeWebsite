@@ -15,6 +15,7 @@
         />
       </div>
     </div>
+    <button nbButton (click)="scroll(pilot)">go to ele</button>
     <nb-actions size="small">
       <nb-action
         [icon]="sideBarShown ? 'close-outline' : 'menu-outline'"
@@ -24,16 +25,33 @@
   </nb-layout-header>
 
   <nb-sidebar right tag="right-sidebar" state="collapsed" fixed>
-    <nb-menu [items]="sidebarMenuItems"> </nb-menu>
+    <!-- <nb-menu [items]="sidebarMenuItems"> </nb-menu> -->
+    <div style="cursor: pointer" (click)="scroll(section1)">
+      <h6><nb-icon icon="home-outline"></nb-icon> Home</h6>
+    </div>
   </nb-sidebar>
 
   <nb-layout-column>
-    <app-hero></app-hero>
-    <app-section1></app-section1>
-    <app-section2></app-section2>
-    <app-pilot-trails></app-pilot-trails>
-    <app-partners></app-partners>
-    <app-media></app-media>
-    <app-contact></app-contact>
+    <div #hero>
+      <app-hero></app-hero>
+    </div>
+    <div #section1>
+      <app-section1></app-section1>
+    </div>
+    <div #section2>
+      <app-section2></app-section2>
+    </div>
+    <div #pilot>
+      <app-pilot-trails></app-pilot-trails>
+    </div>
+    <div #partners>
+      <app-partners></app-partners>
+    </div>
+    <div #media>
+      <app-media></app-media>
+    </div>
+    <div #contact>
+      <app-contact></app-contact>
+    </div>
   </nb-layout-column>
 </nb-layout>
