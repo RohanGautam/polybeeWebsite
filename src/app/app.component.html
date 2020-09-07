@@ -1,5 +1,6 @@
 <nb-layout>
   <nb-layout-header
+    fixed
     [ngStyle]="{
       'background-image': 'url(assets/images/illustration-section-01.svg)'
     }"
@@ -14,7 +15,17 @@
         />
       </div>
     </div>
+    <nb-actions size="small">
+      <nb-action
+        [icon]="sideBarShown ? 'close-outline' : 'menu-outline'"
+        (click)="toggleSidebar()"
+      ></nb-action>
+    </nb-actions>
   </nb-layout-header>
+
+  <nb-sidebar right tag="right-sidebar" state="collapsed" fixed>
+    <nb-menu [items]="sidebarMenuItems"> </nb-menu>
+  </nb-sidebar>
 
   <nb-layout-column>
     <app-hero></app-hero>

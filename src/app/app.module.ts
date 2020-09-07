@@ -10,6 +10,9 @@ import {
   NbCardModule,
   NbButtonModule,
   NbIconModule,
+  NbSidebarModule,
+  NbMenuModule,
+  NbActionsModule,
 } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { HeroComponent } from './hero/hero.component';
@@ -45,6 +48,9 @@ import { MediaTileComponent } from './media/media-tile/media-tile.component';
     NbCardModule,
     NbButtonModule,
     NbIconModule,
+    NbSidebarModule.forRoot(),
+    NbMenuModule.forRoot(),
+    NbActionsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
