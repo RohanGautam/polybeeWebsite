@@ -1,6 +1,17 @@
 <div class="row solution">
-  <div class="col-md-6 solnImageContainer">
+  <div
+    class="col-md-6 solnImageContainer"
+    [ngClass]="imgRight ? ' order-md-last' : ''"
+  >
     <img
+      *ngIf="imgRight"
+      class="img-fluid solnImage"
+      [src]="image"
+      alt=""
+      data-aos="fade-down-left"
+    />
+    <img
+      *ngIf="!imgRight"
       class="img-fluid solnImage"
       [src]="image"
       alt=""
