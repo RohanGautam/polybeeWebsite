@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-solution-component',
@@ -6,8 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./solution-component.component.scss'],
 })
 export class SolutionComponentComponent implements OnInit {
-  image = 'assets/images/mac-fullpage.png';
-
+  @Input() image: string;
+  @Input() title: string = '';
+  @Input() para1: string = '';
+  @Input() para2: string = '';
+  @Input() para3: string = '';
+  // image = 'assets/images/mac-fullpage.png';
   constructor() {}
 
   ngOnInit(): void {}
