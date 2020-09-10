@@ -6,6 +6,11 @@
 }
 .solution {
   margin-bottom: 80px;
+  min-height: 90vh;
+  display: flex;
+  justify-items: center;
+  place-items: center;
+  border-bottom: 2px solid lightgrey;
 }
 .solnImage {
   //   transform: translateX(+20%);
