@@ -2,6 +2,9 @@
   <div
     class="col-md-6 solnImageContainer"
     [ngClass]="imgRight ? ' order-md-last' : ''"
+    [ngStyle]="{
+      'text-align': !imgRight ? 'end' : 'start'
+    }"
   >
     <img
       *ngIf="imgRight"
