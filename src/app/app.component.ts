@@ -29,8 +29,8 @@ enum Direction {
   styleUrls: ['./app.component.scss'],
   animations: [
     trigger('toggle', [
-      state('showHeader', style({ opacity: 1 })),
-      state('hideHeader', style({ opacity: 0 })),
+      state('showHeader', style({ opacity: 1, visibility: 'visible' })),
+      state('hideHeader', style({ opacity: 0, visibility: 'hidden' })),
       transition('showHeader <=> hideHeader', [animate('200ms')]),
     ]),
   ],
