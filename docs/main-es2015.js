@@ -471,7 +471,9 @@ function SolutionComponentComponent_img_3_Template(rf, ctx) { if (rf & 1) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx_r1.image, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 } }
+const _c0 = function (a0) { return { "text-align": a0 }; };
 class SolutionComponentComponent {
+    // @Input() padImg: boolean = true;
     // imgLeft = true;
     // image = 'assets/images/mac-fullpage.png';
     constructor() {
@@ -479,35 +481,47 @@ class SolutionComponentComponent {
         this.para1 = '';
         this.para2 = '';
         this.para3 = '';
+        this.subtitle1 = '';
+        this.subtitle2 = '';
+        this.subtitle3 = '';
         this.imgRight = false;
     }
     ngOnInit() { }
 }
 SolutionComponentComponent.ɵfac = function SolutionComponentComponent_Factory(t) { return new (t || SolutionComponentComponent)(); };
-SolutionComponentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SolutionComponentComponent, selectors: [["app-solution-component"]], inputs: { image: "image", title: "title", para1: "para1", para2: "para2", para3: "para3", imgRight: "imgRight" }, decls: 13, vars: 7, consts: [[1, "row", "solution"], [1, "col-md-6", "solnImageContainer", 3, "ngClass"], ["class", "img-fluid solnImage", "alt", "", "data-aos", "fade-down-left", 3, "src", 4, "ngIf"], ["class", "img-fluid solnImage", "alt", "", "data-aos", "fade-down-right", 3, "src", 4, "ngIf"], [1, "col-md-6", "text-center", "solnContent"], [1, "para"], ["alt", "", "data-aos", "fade-down-left", 1, "img-fluid", "solnImage", 3, "src"], ["alt", "", "data-aos", "fade-down-right", 1, "img-fluid", "solnImage", 3, "src"]], template: function SolutionComponentComponent_Template(rf, ctx) { if (rf & 1) {
+SolutionComponentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SolutionComponentComponent, selectors: [["app-solution-component"]], inputs: { image: "image", title: "title", para1: "para1", para2: "para2", para3: "para3", subtitle1: "subtitle1", subtitle2: "subtitle2", subtitle3: "subtitle3", imgRight: "imgRight" }, decls: 19, vars: 13, consts: [[1, "row", "solution"], [1, "col-md-6", "solnImageContainer", 3, "ngClass", "ngStyle"], ["class", "img-fluid solnImage", "alt", "", "data-aos", "fade-down-left", 3, "src", 4, "ngIf"], ["class", "img-fluid solnImage", "alt", "", "data-aos", "fade-down-right", 3, "src", 4, "ngIf"], [1, "col-md-6", "solnContent"], [1, "para"], ["alt", "", "data-aos", "fade-down-left", 1, "img-fluid", "solnImage", 3, "src"], ["alt", "", "data-aos", "fade-down-right", 1, "img-fluid", "solnImage", 3, "src"]], template: function SolutionComponentComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, SolutionComponentComponent_img_2_Template, 1, 1, "img", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, SolutionComponentComponent_img_3_Template, 1, 1, "img", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h3");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h6");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "h6");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "p", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", ctx.imgRight ? " order-md-last" : "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", ctx.imgRight ? " order-md-last" : "")("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](11, _c0, !ctx.imgRight ? "end" : "start"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.imgRight);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
@@ -515,12 +529,18 @@ SolutionComponentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.title);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.subtitle1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.para1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.subtitle2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.para2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.subtitle3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.para3);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], styles: [".solnImageContainer[_ngcontent-%COMP%] {\n  padding-right: 80px;\n  padding-left: 80px;\n}\n\n.solution[_ngcontent-%COMP%] {\n  margin-bottom: 50px;\n}\n\n.solnImage[_ngcontent-%COMP%] {\n  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);\n}\n\n.para[_ngcontent-%COMP%] {\n  font-size: large;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2NvbXBvbmVudHMvc29sdXRpb24tY29tcG9uZW50L3NvbHV0aW9uLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2x1dGlvbi1jb21wb25lbnQvc29sdXRpb24tY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsbUJBQUE7RUFDQSxrQkFBQTtBQ0FGOztBREVBO0VBQ0UsbUJBQUE7QUNDRjs7QURDQTtFQUdFLDJDQUFBO0FDQUY7O0FER0E7RUFDRSxnQkFBQTtBQ0FGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2x1dGlvbi1jb21wb25lbnQvc29sdXRpb24tY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNvbG5JbWFnZUNvbnRhaW5lciB7XG4gIC8vICAgYm9yZGVyOiAycHggc29saWQgYmxhY2s7XG4gIHBhZGRpbmctcmlnaHQ6IDgwcHg7XG4gIHBhZGRpbmctbGVmdDogODBweDtcbn1cbi5zb2x1dGlvbiB7XG4gIG1hcmdpbi1ib3R0b206IDUwcHg7XG59XG4uc29sbkltYWdlIHtcbiAgLy8gICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoKzIwJSk7XG4gIC8vICAgd2lkdGg6IDgwMHB4O1xuICBib3gtc2hhZG93OiAwIDhweCAxMHB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpO1xufVxuXG4ucGFyYSB7XG4gIGZvbnQtc2l6ZTogbGFyZ2U7XG59XG4iLCIuc29sbkltYWdlQ29udGFpbmVyIHtcbiAgcGFkZGluZy1yaWdodDogODBweDtcbiAgcGFkZGluZy1sZWZ0OiA4MHB4O1xufVxuXG4uc29sdXRpb24ge1xuICBtYXJnaW4tYm90dG9tOiA1MHB4O1xufVxuXG4uc29sbkltYWdlIHtcbiAgYm94LXNoYWRvdzogMCA4cHggMTBweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbn1cblxuLnBhcmEge1xuICBmb250LXNpemU6IGxhcmdlO1xufSJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], styles: [".solnImageContainer[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n  margin-bottom: 8px;\n}\n\n.solution[_ngcontent-%COMP%] {\n  margin-bottom: 80px;\n}\n\n.solnImage[_ngcontent-%COMP%] {\n  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);\n}\n\n.solnContent[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n}\n\n.para[_ngcontent-%COMP%] {\n  font-size: large;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2NvbXBvbmVudHMvc29sdXRpb24tY29tcG9uZW50L3NvbHV0aW9uLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2x1dGlvbi1jb21wb25lbnQvc29sdXRpb24tY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDQUY7O0FERUE7RUFDRSxtQkFBQTtBQ0NGOztBRENBO0VBR0UsMkNBQUE7QUNBRjs7QURFQTtFQUNFLG1CQUFBO0VBQ0Esa0JBQUE7QUNDRjs7QURFQTtFQUNFLGdCQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvbHV0aW9uLWNvbXBvbmVudC9zb2x1dGlvbi1jb21wb25lbnQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29sbkltYWdlQ29udGFpbmVyIHtcbiAgLy8gICBib3JkZXI6IDJweCBzb2xpZCBibGFjaztcbiAgcGFkZGluZy1yaWdodDogNDBweDtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG4uc29sdXRpb24ge1xuICBtYXJnaW4tYm90dG9tOiA4MHB4O1xufVxuLnNvbG5JbWFnZSB7XG4gIC8vICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKCsyMCUpO1xuICAvLyAgIHdpZHRoOiA4MDBweDtcbiAgYm94LXNoYWRvdzogMCA4cHggMTBweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbn1cbi5zb2xuQ29udGVudCB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbn1cblxuLnBhcmEge1xuICBmb250LXNpemU6IGxhcmdlO1xufVxuIiwiLnNvbG5JbWFnZUNvbnRhaW5lciB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uc29sdXRpb24ge1xuICBtYXJnaW4tYm90dG9tOiA4MHB4O1xufVxuXG4uc29sbkltYWdlIHtcbiAgYm94LXNoYWRvdzogMCA4cHggMTBweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbn1cblxuLnNvbG5Db250ZW50IHtcbiAgcGFkZGluZy1yaWdodDogNDBweDtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xufVxuXG4ucGFyYSB7XG4gIGZvbnQtc2l6ZTogbGFyZ2U7XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SolutionComponentComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -537,6 +557,12 @@ SolutionComponentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["�
         }], para2: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], para3: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], subtitle1: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], subtitle2: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], subtitle3: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], imgRight: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -620,7 +646,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const _c0 = function () { return { background: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/banner.jpg)" }; };
+const _c0 = function () { return { backgroundImage: "url(assets/banner-2.png)" }; };
 class HeroComponent {
     constructor() { }
     ngOnInit() {
@@ -639,7 +665,7 @@ HeroComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](1, _c0));
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"]], styles: [".hero[_ngcontent-%COMP%] {\n  height: 80vh;\n  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));\n  background-size: cover;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.impactText[_ngcontent-%COMP%] {\n  font-size: 10vh;\n  line-height: 10vh;\n  text-align: center;\n  font-family: \"museo-sans-title\";\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2hlcm8vaGVyby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvaGVyby9oZXJvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsWUFBQTtFQUNBLG1FQUFBO0VBQ0Esc0JBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtBQ0FGOztBREVBO0VBQ0UsZUFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSwrQkFBQTtFQUVBLFlBQUE7QUNBRiIsImZpbGUiOiJzcmMvYXBwL2hlcm8vaGVyby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5oZXJvIHtcbiAgLy8gICBib3JkZXI6IDJweCBzb2xpZCBibGFjaztcbiAgaGVpZ2h0OiA4MHZoO1xuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQocmdiYSgwLCAwLCAwLCAwLjUpLCByZ2JhKDAsIDAsIDAsIDAuNSkpO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi5pbXBhY3RUZXh0IHtcbiAgZm9udC1zaXplOiAxMHZoO1xuICBsaW5lLWhlaWdodDogMTB2aDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LWZhbWlseTogXCJtdXNlby1zYW5zLXRpdGxlXCI7XG4gIC8vIGNvbG9yOiByZ2IoNTEsIDE1MywgMjU1KTtcbiAgY29sb3I6IHdoaXRlO1xufVxuIiwiLmhlcm8ge1xuICBoZWlnaHQ6IDgwdmg7XG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudChyZ2JhKDAsIDAsIDAsIDAuNSksIHJnYmEoMCwgMCwgMCwgMC41KSk7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4uaW1wYWN0VGV4dCB7XG4gIGZvbnQtc2l6ZTogMTB2aDtcbiAgbGluZS1oZWlnaHQ6IDEwdmg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1mYW1pbHk6IFwibXVzZW8tc2Fucy10aXRsZVwiO1xuICBjb2xvcjogd2hpdGU7XG59Il19 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"]], styles: [".hero[_ngcontent-%COMP%] {\n  height: 80vh;\n  background-size: cover;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.impactText[_ngcontent-%COMP%] {\n  font-size: 10vh;\n  line-height: 10vh;\n  text-align: center;\n  font-family: \"museo-sans-title\";\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2hlcm8vaGVyby5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvaGVyby9oZXJvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsWUFBQTtFQUNBLHNCQUFBO0VBRUEsYUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7QUNERjs7QURHQTtFQUNFLGVBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0EsK0JBQUE7RUFFQSxZQUFBO0FDREYiLCJmaWxlIjoic3JjL2FwcC9oZXJvL2hlcm8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaGVybyB7XG4gIC8vICAgYm9yZGVyOiAycHggc29saWQgYmxhY2s7XG4gIGhlaWdodDogODB2aDtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgLy8gYmFja2dyb3VuZC1zaXplOiBhdXRvO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi5pbXBhY3RUZXh0IHtcbiAgZm9udC1zaXplOiAxMHZoO1xuICBsaW5lLWhlaWdodDogMTB2aDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBmb250LWZhbWlseTogXCJtdXNlby1zYW5zLXRpdGxlXCI7XG4gIC8vIGNvbG9yOiByZ2IoNTEsIDE1MywgMjU1KTtcbiAgY29sb3I6IHdoaXRlO1xufVxuIiwiLmhlcm8ge1xuICBoZWlnaHQ6IDgwdmg7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4uaW1wYWN0VGV4dCB7XG4gIGZvbnQtc2l6ZTogMTB2aDtcbiAgbGluZS1oZWlnaHQ6IDEwdmg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1mYW1pbHk6IFwibXVzZW8tc2Fucy10aXRsZVwiO1xuICBjb2xvcjogd2hpdGU7XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HeroComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -905,7 +931,7 @@ class Section1Component {
     }
 }
 Section1Component.ɵfac = function Section1Component_Factory(t) { return new (t || Section1Component)(); };
-Section1Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Section1Component, selectors: [["app-section1"]], decls: 10, vars: 0, consts: [[1, "section1", "my-auto"], [1, "text-center"], [1, "row"], [1, "col-md"], ["image", "assets/images/seed.png", "text", "A $50 Bn industry entirely depends on hand pollination for production.", "title", "Hybrid Seeds"], ["image", "assets/images/vertical-farming.png", "text", "A scalable solution for pollination is the industry's biggest bottleneck.", "title", "Indoor Vertical Farming"], ["image", "assets/images/greenhouse.png", "text", "Not all growers are blessed with easy and affordable access to bees.", "title", "Greenhouses"]], template: function Section1Component_Template(rf, ctx) { if (rf & 1) {
+Section1Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Section1Component, selectors: [["app-section1"]], decls: 10, vars: 0, consts: [[1, "section1", "my-auto"], [1, "text-center"], [1, "row"], [1, "col-md"], ["image", "assets/images/industryProblems/seed.png", "text", "A $50 Bn industry entirely depends on hand pollination for production.", "title", "Hybrid Seeds"], ["image", "assets/images/industryProblems/vertical-farming.png", "text", "A scalable solution for pollination is the industry's biggest bottleneck.", "title", "Indoor Vertical Farming"], ["image", "assets/images/industryProblems/greenhouse.png", "text", "Not all growers are blessed with easy and affordable access to bees.", "title", "Greenhouses"]], template: function Section1Component_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Pollination has been left to chance for too long.");
@@ -956,7 +982,7 @@ class Section2Component {
     }
 }
 Section2Component.ɵfac = function Section2Component_Factory(t) { return new (t || Section2Component)(); };
-Section2Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Section2Component, selectors: [["app-section2"]], decls: 6, vars: 0, consts: [[1, "section2"], [1, "text-center"], ["image", "assets/images/drones.gif", "title", "Grow more from less.", "para1", "Increase and track yields accurately through precision pollination to get the most out of every crop.", "para2", "Enhance quality of produce with higher quality of pollination. Our method of self-pollination promises to maximize the degree of fertilization of every flower, leading to lower rejection rates.", "para3", "We are offering pilots for pollination of strawberries, tomatoes, pepper and eggplant in greenhouses and vertical farms."], ["image", "assets/images/crop-bg.jpg", "imgRight", "true", "title", " Accelerate hybrid seed development.", "para1", "Increase self efficiency and eliminate the inconsistencies of manual and bee pollination.", "para2", "Valuable germplasm is lost each time cross-pollination is done improperly. With autonomous miniature drones, perform targeted crosses at just the right time to obtain clear outcomes for your trials. ", "para3", "We are offering pilots for pollination of strawberries, tomatoes, pepper and eggplant in greenhouses and vertical farms."], ["image", "assets/images/mac-fullpage.png", "title", "Lightning fast workflow with phenobee", "para1", "Measure plant phenotypes such as vigor, height and yields. Powered by cloud technology and bleeding edge computer vision and AI."]], template: function Section2Component_Template(rf, ctx) { if (rf & 1) {
+Section2Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Section2Component, selectors: [["app-section2"]], decls: 6, vars: 0, consts: [[1, "section2"], [1, "text-center"], ["image", "assets/images/drones.gif", "title", "Grow more from less.", "subtitle1", "Greenhouses and vertical farming", "para1", "Increase and track yields accurately through precision pollination to get the most out of every crop.", "para2", "Enhance quality of produce with higher quality of pollination. Our method of self-pollination promises to maximize the degree of fertilization of every flower, leading to lower rejection rates.", "para3", "We are offering pilots for pollination of strawberries, tomatoes, pepper and eggplant in greenhouses and vertical farms."], ["image", "assets/images/selfpoll.gif", "imgRight", "true", "title", " Accelerate hybrid seed development.", "subtitle1", "Autonomous self-pollination", "para1", "Increase self efficiency and eliminate the inconsistencies of manual and bee pollination.", "subtitle2", "Autonomous cross pollination in hybridization", "para2", "Valuable germplasm is lost each time cross-pollination is done improperly. With autonomous miniature drones, perform targeted crosses at just the right time to obtain clear outcomes for your trials. ", "para3", "We are offering pilots for pollination of strawberries, tomatoes, pepper and eggplant in greenhouses and vertical farms."], ["image", "assets/images/mac-fullpage.png", "title", "Lightning fast workflow with phenobee", "para1", "Measure plant phenotypes such as vigor, height and yields. Powered by cloud technology and bleeding edge computer vision and AI."]], template: function Section2Component_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Our Solutions.");
