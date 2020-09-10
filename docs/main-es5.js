@@ -535,9 +535,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       styles: ["nb-layout-header[_ngcontent-%COMP%] {\n  background-size: cover;\n}\n\n.sidebarMenuItem[_ngcontent-%COMP%] {\n  cursor: pointer;\n  margin-bottom: 20px;\n  border-bottom: 2px solid lightgrey;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlBO0VBQ0Usc0JBQUE7QUNIRjs7QURNQTtFQUNFLGVBQUE7RUFDQSxtQkFBQTtFQUVBLGtDQUFBO0FDSkYiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBuYi1sYXlvdXQtaGVhZGVyIHtcbi8vICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiLi9hc3NldHMvaW1hZ2VzL2lsbHVzdHJhdGlvbi1zZWN0aW9uLTAxLnN2Z1wiKTtcbi8vIH1cblxubmItbGF5b3V0LWhlYWRlciB7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG59XG5cbi5zaWRlYmFyTWVudUl0ZW0ge1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gIC8vIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCByZ2IoNTEsIDE1MywgMjU1KTtcbiAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkIGxpZ2h0Z3JleTtcbn1cbiIsIm5iLWxheW91dC1oZWFkZXIge1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xufVxuXG4uc2lkZWJhck1lbnVJdGVtIHtcbiAgY3Vyc29yOiBwb2ludGVyO1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICBib3JkZXItYm90dG9tOiAycHggc29saWQgbGlnaHRncmV5O1xufSJdfQ== */"],
       data: {
         animation: [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["trigger"])('toggle', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["state"])('showHeader', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["style"])({
-          opacity: 1
+          opacity: 1,
+          visibility: 'visible'
         })), Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["state"])('hideHeader', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["style"])({
-          opacity: 0
+          opacity: 0,
+          visibility: 'hidden'
         })), Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["transition"])('showHeader <=> hideHeader', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["animate"])('200ms')])])]
       }
     });
@@ -551,9 +553,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           templateUrl: './app.component.html',
           styleUrls: ['./app.component.scss'],
           animations: [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["trigger"])('toggle', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["state"])('showHeader', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["style"])({
-            opacity: 1
+            opacity: 1,
+            visibility: 'visible'
           })), Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["state"])('hideHeader', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["style"])({
-            opacity: 0
+            opacity: 0,
+            visibility: 'hidden'
           })), Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["transition"])('showHeader <=> hideHeader', [Object(_angular_animations__WEBPACK_IMPORTED_MODULE_4__["animate"])('200ms')])])]
         }]
       }], function () {
@@ -766,7 +770,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _c0 = function _c0(a0) {
       return {
-        width: a0
+        height: a0
       };
     };
 
@@ -779,7 +783,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.text = '';
         this.title = '';
-        this.imgWidth = '100px';
+        this.imgHeight = '100px';
       }
 
       _createClass(ImgTextVerticalComponent, [{
@@ -801,7 +805,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         image: "image",
         text: "text",
         title: "title",
-        imgWidth: "imgWidth"
+        imgHeight: "imgHeight"
       },
       decls: 10,
       vars: 6,
@@ -846,7 +850,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.image, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](4, _c0, ctx.imgWidth));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.image, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](4, _c0, ctx.imgHeight));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
@@ -858,7 +862,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"]],
-      styles: [".imgTextVertical[_ngcontent-%COMP%] {\n  border: 2px solid #3399ff;\n  margin-bottom: 8px;\n}\n\nimg[_ngcontent-%COMP%] {\n  margin-bottom: 8px;\n}\n\n.description[_ngcontent-%COMP%] {\n  font-size: 20px;\n}\n\n.customcard[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  background: #fdfbfb;\n  padding: 10px;\n  margin-bottom: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2NvbXBvbmVudHMvaW1nLXRleHQtdmVydGljYWwvaW1nLXRleHQtdmVydGljYWwuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvaW1nLXRleHQtdmVydGljYWwvaW1nLXRleHQtdmVydGljYWwuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBQTtFQUNBLGtCQUFBO0FDQ0Y7O0FEQ0E7RUFFRSxrQkFBQTtBQ0NGOztBRENBO0VBQ0UsZUFBQTtBQ0VGOztBRENBO0VBR0Usa0JBQUE7RUFDQSxtQkFBQTtFQUVBLGFBQUE7RUFDQSxtQkFBQTtBQ0RGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9pbWctdGV4dC12ZXJ0aWNhbC9pbWctdGV4dC12ZXJ0aWNhbC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbWdUZXh0VmVydGljYWwge1xuICBib3JkZXI6IDJweCBzb2xpZCByZ2IoNTEsIDE1MywgMjU1KTtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuaW1nIHtcbiAgLy8gd2lkdGg6IDEwMHB4O1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG4uZGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IDIwcHg7XG59XG5cbi5jdXN0b21jYXJkIHtcbiAgLy8gYmFja2dyb3VuZDogd2hpdGU7XG4gIC8vIGJvcmRlcjogMnB4IHNvbGlkIHJnYig1MSwgMTUzLCAyNTUpO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIGJhY2tncm91bmQ6ICNmZGZiZmI7XG4gIC8vIGJveC1zaGFkb3c6IDIwcHggMjBweCAzM3B4ICNlM2UzZTMsIC0yMHB4IC0yMHB4IDMzcHggI2ZmZmZmZjtcbiAgcGFkZGluZzogMTBweDtcbiAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgLy8gaGVpZ2h0OiAxMDAlO1xufVxuIiwiLmltZ1RleHRWZXJ0aWNhbCB7XG4gIGJvcmRlcjogMnB4IHNvbGlkICMzMzk5ZmY7XG4gIG1hcmdpbi1ib3R0b206IDhweDtcbn1cblxuaW1nIHtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uZGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IDIwcHg7XG59XG5cbi5jdXN0b21jYXJkIHtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBiYWNrZ3JvdW5kOiAjZmRmYmZiO1xuICBwYWRkaW5nOiAxMHB4O1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xufSJdfQ== */"]
+      styles: [".imgTextVertical[_ngcontent-%COMP%] {\n  border: 2px solid #3399ff;\n  margin-bottom: 8px;\n}\n\nimg[_ngcontent-%COMP%] {\n  margin-bottom: 8px;\n}\n\n.description[_ngcontent-%COMP%] {\n  font-size: 20px;\n}\n\n.customcard[_ngcontent-%COMP%] {\n  border-radius: 5px;\n  background: #fdfbfb;\n  padding: 10px;\n  margin-bottom: 20px;\n  height: 250px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2NvbXBvbmVudHMvaW1nLXRleHQtdmVydGljYWwvaW1nLXRleHQtdmVydGljYWwuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvaW1nLXRleHQtdmVydGljYWwvaW1nLXRleHQtdmVydGljYWwuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx5QkFBQTtFQUNBLGtCQUFBO0FDQ0Y7O0FEQ0E7RUFFRSxrQkFBQTtBQ0NGOztBRENBO0VBQ0UsZUFBQTtBQ0VGOztBRENBO0VBR0Usa0JBQUE7RUFDQSxtQkFBQTtFQUVBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLGFBQUE7QUNERiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaW1nLXRleHQtdmVydGljYWwvaW1nLXRleHQtdmVydGljYWwuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaW1nVGV4dFZlcnRpY2FsIHtcbiAgYm9yZGVyOiAycHggc29saWQgcmdiKDUxLCAxNTMsIDI1NSk7XG4gIG1hcmdpbi1ib3R0b206IDhweDtcbn1cbmltZyB7XG4gIC8vIHdpZHRoOiAxMDBweDtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuLmRlc2NyaXB0aW9uIHtcbiAgZm9udC1zaXplOiAyMHB4O1xufVxuXG4uY3VzdG9tY2FyZCB7XG4gIC8vIGJhY2tncm91bmQ6IHdoaXRlO1xuICAvLyBib3JkZXI6IDJweCBzb2xpZCByZ2IoNTEsIDE1MywgMjU1KTtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBiYWNrZ3JvdW5kOiAjZmRmYmZiO1xuICAvLyBib3gtc2hhZG93OiAyMHB4IDIwcHggMzNweCAjZTNlM2UzLCAtMjBweCAtMjBweCAzM3B4ICNmZmZmZmY7XG4gIHBhZGRpbmc6IDEwcHg7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gIGhlaWdodDogMjUwcHg7XG4gIC8vIGhlaWdodDogMTAwJTtcbn1cbiIsIi5pbWdUZXh0VmVydGljYWwge1xuICBib3JkZXI6IDJweCBzb2xpZCAjMzM5OWZmO1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG5cbmltZyB7XG4gIG1hcmdpbi1ib3R0b206IDhweDtcbn1cblxuLmRlc2NyaXB0aW9uIHtcbiAgZm9udC1zaXplOiAyMHB4O1xufVxuXG4uY3VzdG9tY2FyZCB7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgYmFja2dyb3VuZDogI2ZkZmJmYjtcbiAgcGFkZGluZzogMTBweDtcbiAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgaGVpZ2h0OiAyNTBweDtcbn0iXX0= */"]
     });
     /*@__PURE__*/
 
@@ -882,7 +886,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         title: [{
           type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }],
-        imgWidth: [{
+        imgHeight: [{
           type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }]
       });
@@ -998,7 +1002,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       },
       decls: 19,
       vars: 13,
-      consts: [[1, "row", "solution"], [1, "col-md-6", "solnImageContainer", 3, "ngClass", "ngStyle"], ["class", "img-fluid solnImage", "alt", "", "data-aos", "fade-down-left", 3, "src", 4, "ngIf"], ["class", "img-fluid solnImage", "alt", "", "data-aos", "fade-down-right", 3, "src", 4, "ngIf"], [1, "col-md-6", "solnContent"], [1, "para"], ["alt", "", "data-aos", "fade-down-left", 1, "img-fluid", "solnImage", 3, "src"], ["alt", "", "data-aos", "fade-down-right", 1, "img-fluid", "solnImage", 3, "src"]],
+      consts: [[1, "row", "solution"], [1, "col-md-6", "solnImageContainer", 3, "ngClass", "ngStyle"], ["class", "img-fluid solnImage", "alt", "", "data-aos", "fade-left", 3, "src", 4, "ngIf"], ["class", "img-fluid solnImage", "alt", "", "data-aos", "fade-right", 3, "src", 4, "ngIf"], [1, "col-md-6", "solnContent"], [1, "para"], ["alt", "", "data-aos", "fade-left", 1, "img-fluid", "solnImage", 3, "src"], ["alt", "", "data-aos", "fade-right", 1, "img-fluid", "solnImage", 3, "src"]],
       template: function SolutionComponentComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1103,7 +1107,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]],
-      styles: [".solnImageContainer[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n  margin-bottom: 8px;\n}\n\n.solution[_ngcontent-%COMP%] {\n  margin-bottom: 80px;\n}\n\n.solnImage[_ngcontent-%COMP%] {\n  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);\n}\n\n.solnContent[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n}\n\n.para[_ngcontent-%COMP%] {\n  font-size: large;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2NvbXBvbmVudHMvc29sdXRpb24tY29tcG9uZW50L3NvbHV0aW9uLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2x1dGlvbi1jb21wb25lbnQvc29sdXRpb24tY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDQUY7O0FERUE7RUFDRSxtQkFBQTtBQ0NGOztBRENBO0VBR0UsMkNBQUE7QUNBRjs7QURFQTtFQUNFLG1CQUFBO0VBQ0Esa0JBQUE7QUNDRjs7QURFQTtFQUNFLGdCQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvbHV0aW9uLWNvbXBvbmVudC9zb2x1dGlvbi1jb21wb25lbnQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29sbkltYWdlQ29udGFpbmVyIHtcbiAgLy8gICBib3JkZXI6IDJweCBzb2xpZCBibGFjaztcbiAgcGFkZGluZy1yaWdodDogNDBweDtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG4uc29sdXRpb24ge1xuICBtYXJnaW4tYm90dG9tOiA4MHB4O1xufVxuLnNvbG5JbWFnZSB7XG4gIC8vICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKCsyMCUpO1xuICAvLyAgIHdpZHRoOiA4MDBweDtcbiAgYm94LXNoYWRvdzogMCA4cHggMTBweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbn1cbi5zb2xuQ29udGVudCB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbn1cblxuLnBhcmEge1xuICBmb250LXNpemU6IGxhcmdlO1xufVxuIiwiLnNvbG5JbWFnZUNvbnRhaW5lciB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uc29sdXRpb24ge1xuICBtYXJnaW4tYm90dG9tOiA4MHB4O1xufVxuXG4uc29sbkltYWdlIHtcbiAgYm94LXNoYWRvdzogMCA4cHggMTBweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbn1cblxuLnNvbG5Db250ZW50IHtcbiAgcGFkZGluZy1yaWdodDogNDBweDtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xufVxuXG4ucGFyYSB7XG4gIGZvbnQtc2l6ZTogbGFyZ2U7XG59Il19 */"]
+      styles: [".solnImageContainer[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n  margin-bottom: 8px;\n}\n\n.solution[_ngcontent-%COMP%] {\n  margin-bottom: 80px;\n  min-height: 90vh;\n  display: flex;\n  justify-items: center;\n  place-items: center;\n  border-bottom: 2px solid lightgrey;\n}\n\n.solnImage[_ngcontent-%COMP%] {\n  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);\n}\n\n.solnContent[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n}\n\n.para[_ngcontent-%COMP%] {\n  font-size: large;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2NvbXBvbmVudHMvc29sdXRpb24tY29tcG9uZW50L3NvbHV0aW9uLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2x1dGlvbi1jb21wb25lbnQvc29sdXRpb24tY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDQUY7O0FERUE7RUFDRSxtQkFBQTtFQUNBLGdCQUFBO0VBQ0EsYUFBQTtFQUNBLHFCQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQ0FBQTtBQ0NGOztBRENBO0VBQ0UsMkNBQUE7QUNFRjs7QURBQTtFQUNFLG1CQUFBO0VBQ0Esa0JBQUE7QUNHRjs7QURBQTtFQUNFLGdCQUFBO0FDR0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvbHV0aW9uLWNvbXBvbmVudC9zb2x1dGlvbi1jb21wb25lbnQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29sbkltYWdlQ29udGFpbmVyIHtcbiAgLy8gICBib3JkZXI6IDJweCBzb2xpZCBibGFjaztcbiAgcGFkZGluZy1yaWdodDogNDBweDtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG4uc29sdXRpb24ge1xuICBtYXJnaW4tYm90dG9tOiA4MHB4O1xuICBtaW4taGVpZ2h0OiA5MHZoO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWl0ZW1zOiBjZW50ZXI7XG4gIHBsYWNlLWl0ZW1zOiBjZW50ZXI7XG4gIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBsaWdodGdyZXk7XG59XG4uc29sbkltYWdlIHtcbiAgYm94LXNoYWRvdzogMCA4cHggMTBweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbn1cbi5zb2xuQ29udGVudCB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbn1cblxuLnBhcmEge1xuICBmb250LXNpemU6IGxhcmdlO1xufVxuIiwiLnNvbG5JbWFnZUNvbnRhaW5lciB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uc29sdXRpb24ge1xuICBtYXJnaW4tYm90dG9tOiA4MHB4O1xuICBtaW4taGVpZ2h0OiA5MHZoO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWl0ZW1zOiBjZW50ZXI7XG4gIHBsYWNlLWl0ZW1zOiBjZW50ZXI7XG4gIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBsaWdodGdyZXk7XG59XG5cbi5zb2xuSW1hZ2Uge1xuICBib3gtc2hhZG93OiAwIDhweCAxMHB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpO1xufVxuXG4uc29sbkNvbnRlbnQge1xuICBwYWRkaW5nLXJpZ2h0OiA0MHB4O1xuICBwYWRkaW5nLWxlZnQ6IDQwcHg7XG59XG5cbi5wYXJhIHtcbiAgZm9udC1zaXplOiBsYXJnZTtcbn0iXX0= */"]
     });
     /*@__PURE__*/
 
@@ -1315,7 +1319,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _c0 = function _c0() {
       return {
-        backgroundImage: "url(assets/banner-2.png)"
+        backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/banner-2.png)"
       };
     };
 
@@ -1738,7 +1742,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-partners"]],
       decls: 10,
       vars: 0,
-      consts: [[1, "partners", "my-auto"], [1, "text-center"], [1, "row", "equal"], [1, "col-md"], ["image", "assets/images/partners/SFA.png", "text", "The Agency supports us with horticultural know-how and its network of local growers.", "imgWidth", "200px"], ["image", "assets/images/partners/temasek-foundation.png", "text", "The Foundation supports our development of autonomous pollination methods for indoor farming.", "imgWidth", "250px"], ["image", "assets/images/partners/NUS_Logo.png", "text", "We are alumni of NUSGRIP, the university's deep-tech accelerator.", "imgWidth", "200px"]],
+      consts: [[1, "partners", "my-auto"], [1, "text-center"], [1, "row", "equal"], [1, "col-md"], ["image", "assets/images/partners/SFA.png", "text", "The Agency supports us with horticultural know-how and its network of local growers."], ["image", "assets/images/partners/temasek-foundation.png", "text", "The Foundation supports our development of autonomous pollination methods for indoor farming."], ["image", "assets/images/partners/NUS_Logo.png", "text", "We are alumni of NUSGRIP, the university's deep-tech accelerator."]],
       template: function PartnersComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1943,14 +1947,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-section1"]],
       decls: 10,
       vars: 0,
-      consts: [[1, "section1", "my-auto"], [1, "text-center"], [1, "row"], [1, "col-md"], ["image", "assets/images/industryProblems/seed.png", "text", "A $50 Bn industry entirely depends on hand pollination for production.", "title", "Hybrid Seeds"], ["image", "assets/images/industryProblems/vertical-farming.png", "text", "A scalable solution for pollination is the industry's biggest bottleneck.", "title", "Indoor Vertical Farming"], ["image", "assets/images/industryProblems/greenhouse.png", "text", "Not all growers are blessed with easy and affordable access to bees.", "title", "Greenhouses"]],
+      consts: [[1, "section1", "my-auto"], [1, "text-center", "text-white"], [1, "row"], [1, "col-md"], ["image", "assets/images/industryProblems/seed.png", "text", "A $50 Bn industry entirely depends on hand pollination for production.", "title", "Hybrid Seeds"], ["image", "assets/images/industryProblems/vertical-farming.png", "text", "A scalable solution for pollination is the industry's biggest bottleneck.", "title", "Indoor Vertical Farming"], ["image", "assets/images/industryProblems/greenhouse.png", "text", "Not all growers are blessed with easy and affordable access to bees.", "title", "Greenhouses"]],
       template: function Section1Component_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Pollination has been left to chance for too long.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Pollination has been left to chance for too long. ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1980,7 +1984,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_components_img_text_vertical_img_text_vertical_component__WEBPACK_IMPORTED_MODULE_1__["ImgTextVerticalComponent"]],
-      styles: [".section1[_ngcontent-%COMP%] {\n  padding: 10px;\n  min-height: 70vh;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL3NlY3Rpb24xL3NlY3Rpb24xLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9zZWN0aW9uMS9zZWN0aW9uMS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7RUFDQSxnQkFBQTtBQ0NGIiwiZmlsZSI6InNyYy9hcHAvc2VjdGlvbjEvc2VjdGlvbjEuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2VjdGlvbjEge1xuICBwYWRkaW5nOiAxMHB4O1xuICBtaW4taGVpZ2h0OiA3MHZoO1xufVxuIiwiLnNlY3Rpb24xIHtcbiAgcGFkZGluZzogMTBweDtcbiAgbWluLWhlaWdodDogNzB2aDtcbn0iXX0= */"]
+      styles: [".section1[_ngcontent-%COMP%] {\n  padding: 10px;\n  min-height: 70vh;\n  background-color: #3399ff;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL3NlY3Rpb24xL3NlY3Rpb24xLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9zZWN0aW9uMS9zZWN0aW9uMS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7RUFDQSxnQkFBQTtFQUNBLHlCQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC9zZWN0aW9uMS9zZWN0aW9uMS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5zZWN0aW9uMSB7XG4gIHBhZGRpbmc6IDEwcHg7XG4gIG1pbi1oZWlnaHQ6IDcwdmg7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYig1MSwgMTUzLCAyNTUpO1xufVxuIiwiLnNlY3Rpb24xIHtcbiAgcGFkZGluZzogMTBweDtcbiAgbWluLWhlaWdodDogNzB2aDtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMzOTlmZjtcbn0iXX0= */"]
     });
     /*@__PURE__*/
 
