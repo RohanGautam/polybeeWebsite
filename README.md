@@ -13,7 +13,7 @@ Create a production build with
 ```
 npm run build
 ```
-This gets saved in `dist/`, and the files will be in `dist/polybeeWebsite`. Create a `.zip` file in here (`dist/polybeeWebsite.zip`). We'll need it for uploading to namecheap.
+This gets saved in `dist/`, and the files will be in `dist/static`. Create a `.zip` file in here (`dist/static.zip`). We'll need it for uploading to namecheap.
 ### Namecheap
 - Go to the dashboard, and get to `Cpanel` by clicking the storage icon (the icon in the middle of the products section)
 ![image](https://user-images.githubusercontent.com/17317792/92896429-f0097700-f44e-11ea-8cc4-3a2519dcf614.png)
