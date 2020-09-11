@@ -15,6 +15,8 @@ export class SolutionComponentComponent implements OnInit {
   @Input() subtitle2: string = '';
   @Input() subtitle3: string = '';
   @Input() imgRight: boolean = false;
+  @Input() blueBack: boolean = false;
+
   // @Input() padImg: boolean = true;
   // imgLeft = true;
   // image = 'assets/images/mac-fullpage.png';

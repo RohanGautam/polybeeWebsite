@@ -1,4 +1,9 @@
-<div class="row solution">
+<div
+  class="row solution"
+  [ngStyle]="{
+    'background-color': blueBack ? 'rgb(51, 153, 255)' : null
+  }"
+>
   <div
     class="col-md-6 solnImageContainer"
     [ngClass]="imgRight ? ' order-md-last' : ''"
@@ -22,12 +27,20 @@
     />
   </div>
   <div class="col-md-6 solnContent">
-    <h3>{{ title }}</h3>
-    <h6>{{ subtitle1 }}</h6>
-    <p class="para">{{ para1 }}</p>
-    <h6>{{ subtitle2 }}</h6>
-    <p class="para">{{ para2 }}</p>
-    <h6>{{ subtitle3 }}</h6>
-    <p class="para">{{ para3 }}</p>
+    <h3 [ngStyle]="{ color: blueBack ? 'white' : null }">{{ title }}</h3>
+    <h6 [ngStyle]="{ color: blueBack ? 'white' : null }">{{ subtitle1 }}</h6>
+    <p class="para" [ngStyle]="{ color: blueBack ? 'white' : null }">
+      {{ para1 }}
+    </p>
+    <h6 [ngStyle]="{ color: blueBack ? 'white' : null }">{{ subtitle2 }}</h6>
+    <p class="para" [ngStyle]="{ color: blueBack ? 'white' : null }">
+      {{ para2 }}
+    </p>
+    <h6 [ngStyle]="{ color: blueBack ? 'white' : null }">{{ subtitle3 }}</h6>
+    <p class="para" [ngStyle]="{ color: blueBack ? 'white' : null }">
+      {{ para3 }}
+    </p>
   </div>
 </div>
+
+<!-- [ngStyle]="{ color: blueBack ? 'white' : null }" -->
