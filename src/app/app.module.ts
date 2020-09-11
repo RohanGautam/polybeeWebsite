@@ -25,6 +25,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MediaComponent } from './media/media.component';
 import { MediaTileComponent } from './media/media-tile/media-tile.component';
 import { SolutionComponentComponent } from './components/solution-component/solution-component.component';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { SolutionComponentComponent } from './components/solution-component/solu
     NbIconModule,
     NbSidebarModule.forRoot(),
     NbActionsModule,
+    ScullyLibModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

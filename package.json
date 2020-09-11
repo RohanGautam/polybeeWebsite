@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "ghPageBuild": "ng build --output-path=docs"
+    "ghPageBuild": "ng build --output-path=docs",
+    "scully": "scully",
+    "scully:serve": "scully serve"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +25,9 @@
     "@angular/router": "~9.1.4",
     "@nebular/eva-icons": "5.1.0",
     "@nebular/theme": "^5.1.0",
+    "@scullyio/init": "^1.0.0",
+    "@scullyio/ng-lib": "^1.0.0-beta.1",
+    "@scullyio/scully": "^1.0.0-beta.5",
     "aos": "^2.3.4",
     "bootstrap": "4.1.1",
     "eva-icons": "^1.1.2",
