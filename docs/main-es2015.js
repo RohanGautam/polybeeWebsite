@@ -558,7 +558,7 @@ SolutionComponentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](35, _c2, ctx.blueBack ? "white" : null));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.para3, " ");
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], styles: [".solnImageContainer[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n  margin-bottom: 8px;\n}\n\n.solution[_ngcontent-%COMP%] {\n  min-height: 90vh;\n  display: flex;\n  justify-items: center;\n  place-items: center;\n  border-bottom: 2px solid lightgrey;\n}\n\n.solnContent[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n}\n\n.para[_ngcontent-%COMP%] {\n  font-size: large;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2NvbXBvbmVudHMvc29sdXRpb24tY29tcG9uZW50L3NvbHV0aW9uLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2x1dGlvbi1jb21wb25lbnQvc29sdXRpb24tY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDQUY7O0FERUE7RUFDRSxnQkFBQTtFQUNBLGFBQUE7RUFDQSxxQkFBQTtFQUNBLG1CQUFBO0VBQ0Esa0NBQUE7QUNDRjs7QURJQTtFQUNFLG1CQUFBO0VBQ0Esa0JBQUE7QUNERjs7QURJQTtFQUNFLGdCQUFBO0FDREYiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvbHV0aW9uLWNvbXBvbmVudC9zb2x1dGlvbi1jb21wb25lbnQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29sbkltYWdlQ29udGFpbmVyIHtcbiAgLy8gICBib3JkZXI6IDJweCBzb2xpZCBibGFjaztcbiAgcGFkZGluZy1yaWdodDogNDBweDtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xuICBtYXJnaW4tYm90dG9tOiA4cHg7XG59XG4uc29sdXRpb24ge1xuICBtaW4taGVpZ2h0OiA5MHZoO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWl0ZW1zOiBjZW50ZXI7XG4gIHBsYWNlLWl0ZW1zOiBjZW50ZXI7XG4gIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBsaWdodGdyZXk7XG59XG4vLyAuc29sbkltYWdlIHtcbi8vICAgYm94LXNoYWRvdzogMCA4cHggMTBweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbi8vIH1cbi5zb2xuQ29udGVudCB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbn1cblxuLnBhcmEge1xuICBmb250LXNpemU6IGxhcmdlO1xufVxuIiwiLnNvbG5JbWFnZUNvbnRhaW5lciB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uc29sdXRpb24ge1xuICBtaW4taGVpZ2h0OiA5MHZoO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWl0ZW1zOiBjZW50ZXI7XG4gIHBsYWNlLWl0ZW1zOiBjZW50ZXI7XG4gIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBsaWdodGdyZXk7XG59XG5cbi5zb2xuQ29udGVudCB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbn1cblxuLnBhcmEge1xuICBmb250LXNpemU6IGxhcmdlO1xufSJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], styles: [".solnImageContainer[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n  margin-bottom: 8px;\n}\n\n.solution[_ngcontent-%COMP%] {\n  min-height: 90vh;\n  display: flex;\n  justify-items: center;\n  place-items: center;\n  border-bottom: 2px solid lightgrey;\n}\n\n.solnImage[_ngcontent-%COMP%] {\n  border-radius: 5px;\n}\n\n.solnContent[_ngcontent-%COMP%] {\n  padding-right: 40px;\n  padding-left: 40px;\n}\n\n.para[_ngcontent-%COMP%] {\n  font-size: large;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL2NvbXBvbmVudHMvc29sdXRpb24tY29tcG9uZW50L3NvbHV0aW9uLWNvbXBvbmVudC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9zb2x1dGlvbi1jb21wb25lbnQvc29sdXRpb24tY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBRUUsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0FDQUY7O0FERUE7RUFDRSxnQkFBQTtFQUNBLGFBQUE7RUFDQSxxQkFBQTtFQUNBLG1CQUFBO0VBQ0Esa0NBQUE7QUNDRjs7QURDQTtFQUVFLGtCQUFBO0FDQ0Y7O0FEQ0E7RUFDRSxtQkFBQTtFQUNBLGtCQUFBO0FDRUY7O0FEQ0E7RUFDRSxnQkFBQTtBQ0VGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zb2x1dGlvbi1jb21wb25lbnQvc29sdXRpb24tY29tcG9uZW50LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNvbG5JbWFnZUNvbnRhaW5lciB7XG4gIC8vICAgYm9yZGVyOiAycHggc29saWQgYmxhY2s7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuLnNvbHV0aW9uIHtcbiAgbWluLWhlaWdodDogOTB2aDtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1pdGVtczogY2VudGVyO1xuICBwbGFjZS1pdGVtczogY2VudGVyO1xuICBib3JkZXItYm90dG9tOiAycHggc29saWQgbGlnaHRncmV5O1xufVxuLnNvbG5JbWFnZSB7XG4gIC8vIGJveC1zaGFkb3c6IDAgOHB4IDEwcHggMCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbn1cbi5zb2xuQ29udGVudCB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbn1cblxuLnBhcmEge1xuICBmb250LXNpemU6IGxhcmdlO1xufVxuIiwiLnNvbG5JbWFnZUNvbnRhaW5lciB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbiAgbWFyZ2luLWJvdHRvbTogOHB4O1xufVxuXG4uc29sdXRpb24ge1xuICBtaW4taGVpZ2h0OiA5MHZoO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWl0ZW1zOiBjZW50ZXI7XG4gIHBsYWNlLWl0ZW1zOiBjZW50ZXI7XG4gIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBsaWdodGdyZXk7XG59XG5cbi5zb2xuSW1hZ2Uge1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG59XG5cbi5zb2xuQ29udGVudCB7XG4gIHBhZGRpbmctcmlnaHQ6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogNDBweDtcbn1cblxuLnBhcmEge1xuICBmb250LXNpemU6IGxhcmdlO1xufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SolutionComponentComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -614,48 +614,63 @@ class ContactComponent {
     }
 }
 ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(); };
-ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 28, vars: 0, consts: [[1, "contact", 2, "padding", "10px"], [1, "text-center"], [1, "contactContent"], ["nbButton", "", "status", "primary", "size", "giant", "outline", "", "href", "mailto:info@polybee.co"], ["icon", "email-outline"], ["nbButton", "", "status", "primary", "size", "giant", "outline", "", "href", "https://goo.gl/maps/R4hKafHpsS9yd6BF7"], ["icon", "globe-2-outline"], ["href", "https://www.sginnovate.com/apprenticeship/talent"], ["href", "https://www.sginnovate.com/infinityseries/talent"], ["href", "https://www.sginnovate.com/power-x-robotics"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
+ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 37, vars: 0, consts: [[1, "contact", 2, "padding", "20px"], [1, "text-center"], [1, "row"], [1, "col-md"], ["nbButton", "", "status", "primary", "size", "giant", "outline", "", "href", "mailto:info@polybee.co"], ["icon", "email-outline"], ["nbButton", "", "status", "primary", "size", "giant", "outline", "", "href", "https://goo.gl/maps/R4hKafHpsS9yd6BF7"], ["icon", "pin-outline"], ["href", "https://www.sginnovate.com/apprenticeship/talent"], ["href", "https://www.sginnovate.com/infinityseries/talent"], ["href", "https://www.sginnovate.com/power-x-robotics"], ["href", "https://angel.co/company/polybee/jobs"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Contact us.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Contact us");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "nb-icon", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " info@polybee.co ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Email");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "nb-icon", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " info@polybee.co ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "nb-icon", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " office ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Office");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "nb-icon", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " Map ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "21 Heng Mui Keng Terrace, Singapore 119163");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "h4", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Careers");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Internship and traineeship");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "21 Heng Mui Keng Terrace, Singapore 119163");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "SgInnovate infinity series - internship and traineeship");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Careers");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "ul");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Traineeship and full-time role");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "SGInnovate Summation Program ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "SGInnovate Infinity Program");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "SGInnovate PowerX Robotics");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Full time roles");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -689,7 +704,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const _c0 = function () { return { backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/banner-2.png)" }; };
+const _c0 = function () { return { backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/banner.png)" }; };
 class HeroComponent {
     constructor() { }
     ngOnInit() {
@@ -699,7 +714,7 @@ HeroComponent.ɵfac = function HeroComponent_Factory(t) { return new (t || HeroC
 HeroComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeroComponent, selectors: [["app-hero"]], decls: 6, vars: 2, consts: [[1, "hero", 3, "ngStyle"], [1, "impactText"], [2, "color", "white"]], template: function HeroComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Grow more from less. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Grow more from less ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h4", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Autonomous drones for precision pollination in indoor farming. ");
@@ -785,7 +800,7 @@ MediaTileComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.description);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.link);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbButtonComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbIconComponent"]], styles: [".customcard[_ngcontent-%COMP%] {\n  position: relative;\n  border-radius: 5px;\n  background: #fdfbfb;\n  padding: 10px;\n  height: 350px;\n  margin-bottom: 10px;\n}\n\n.mediaImage[_ngcontent-%COMP%] {\n  border: 2px solid #3399ff;\n}\n\n.mediaAddOn[_ngcontent-%COMP%] {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n\n.mediaDescription[_ngcontent-%COMP%] {\n  font-size: large;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL21lZGlhL21lZGlhLXRpbGUvbWVkaWEtdGlsZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvbWVkaWEvbWVkaWEtdGlsZS9tZWRpYS10aWxlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQUE7RUFFQSxrQkFBQTtFQUNBLG1CQUFBO0VBRUEsYUFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQ0RGOztBREdBO0VBRUUseUJBQUE7QUNERjs7QURPQTtFQUNFLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLE9BQUE7RUFDQSxRQUFBO0FDSkY7O0FETUE7RUFDRSxnQkFBQTtBQ0hGIiwiZmlsZSI6InNyYy9hcHAvbWVkaWEvbWVkaWEtdGlsZS9tZWRpYS10aWxlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmN1c3RvbWNhcmQge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIC8vIGJhY2tncm91bmQ6IHdoaXRlO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIGJhY2tncm91bmQ6ICNmZGZiZmI7XG4gIC8vIGJveC1zaGFkb3c6IDIwcHggMjBweCAzM3B4ICNlM2UzZTMsIC0yMHB4IC0yMHB4IDMzcHggI2ZmZmZmZjtcbiAgcGFkZGluZzogMTBweDtcbiAgaGVpZ2h0OiAzNTBweDtcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcbn1cbi5tZWRpYUltYWdlIHtcbiAgLy8gcG9zaXRpb246IGFic29sdXRlO1xuICBib3JkZXI6IDJweCBzb2xpZCByZ2IoNTEsIDE1MywgMjU1KTtcblxuICAvLyB0b3A6IDI1JTtcbiAgLy8gYm90dG9tOiAyNSU7XG59XG5cbi5tZWRpYUFkZE9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBib3R0b206IDA7XG4gIGxlZnQ6IDA7XG4gIHJpZ2h0OiAwO1xufVxuLm1lZGlhRGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IGxhcmdlO1xufVxuIiwiLmN1c3RvbWNhcmQge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgYmFja2dyb3VuZDogI2ZkZmJmYjtcbiAgcGFkZGluZzogMTBweDtcbiAgaGVpZ2h0OiAzNTBweDtcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcbn1cblxuLm1lZGlhSW1hZ2Uge1xuICBib3JkZXI6IDJweCBzb2xpZCAjMzM5OWZmO1xufVxuXG4ubWVkaWFBZGRPbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgYm90dG9tOiAwO1xuICBsZWZ0OiAwO1xuICByaWdodDogMDtcbn1cblxuLm1lZGlhRGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IGxhcmdlO1xufSJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbButtonComponent"], _nebular_theme__WEBPACK_IMPORTED_MODULE_2__["NbIconComponent"]], styles: [".customcard[_ngcontent-%COMP%] {\n  position: relative;\n  border-radius: 5px;\n  background: #fdfbfb;\n  padding: 10px;\n  height: 270px;\n  margin-bottom: 20px;\n}\n\n.mediaImage[_ngcontent-%COMP%] {\n  border: 2px solid #3399ff;\n}\n\n.mediaAddOn[_ngcontent-%COMP%] {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n\n.mediaDescription[_ngcontent-%COMP%] {\n  font-size: large;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JvaGFuL0Rlc2t0b3AvUG9seWJlZV9maWxlcy9wb2x5YmVlV2Vic2l0ZS9zcmMvYXBwL21lZGlhL21lZGlhLXRpbGUvbWVkaWEtdGlsZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvbWVkaWEvbWVkaWEtdGlsZS9tZWRpYS10aWxlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQUE7RUFFQSxrQkFBQTtFQUNBLG1CQUFBO0VBRUEsYUFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtBQ0RGOztBREdBO0VBRUUseUJBQUE7QUNERjs7QURPQTtFQUNFLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLE9BQUE7RUFDQSxRQUFBO0FDSkY7O0FETUE7RUFDRSxnQkFBQTtBQ0hGIiwiZmlsZSI6InNyYy9hcHAvbWVkaWEvbWVkaWEtdGlsZS9tZWRpYS10aWxlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmN1c3RvbWNhcmQge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIC8vIGJhY2tncm91bmQ6IHdoaXRlO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIGJhY2tncm91bmQ6ICNmZGZiZmI7XG4gIC8vIGJveC1zaGFkb3c6IDIwcHggMjBweCAzM3B4ICNlM2UzZTMsIC0yMHB4IC0yMHB4IDMzcHggI2ZmZmZmZjtcbiAgcGFkZGluZzogMTBweDtcbiAgaGVpZ2h0OiAyNzBweDtcbiAgbWFyZ2luLWJvdHRvbTogMjBweDtcbn1cbi5tZWRpYUltYWdlIHtcbiAgLy8gcG9zaXRpb246IGFic29sdXRlO1xuICBib3JkZXI6IDJweCBzb2xpZCByZ2IoNTEsIDE1MywgMjU1KTtcblxuICAvLyB0b3A6IDI1JTtcbiAgLy8gYm90dG9tOiAyNSU7XG59XG5cbi5tZWRpYUFkZE9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBib3R0b206IDA7XG4gIGxlZnQ6IDA7XG4gIHJpZ2h0OiAwO1xufVxuLm1lZGlhRGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IGxhcmdlO1xufVxuIiwiLmN1c3RvbWNhcmQge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgYmFja2dyb3VuZDogI2ZkZmJmYjtcbiAgcGFkZGluZzogMTBweDtcbiAgaGVpZ2h0OiAyNzBweDtcbiAgbWFyZ2luLWJvdHRvbTogMjBweDtcbn1cblxuLm1lZGlhSW1hZ2Uge1xuICBib3JkZXI6IDJweCBzb2xpZCAjMzM5OWZmO1xufVxuXG4ubWVkaWFBZGRPbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgYm90dG9tOiAwO1xuICBsZWZ0OiAwO1xuICByaWdodDogMDtcbn1cblxuLm1lZGlhRGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IGxhcmdlO1xufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MediaTileComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -825,10 +840,10 @@ class MediaComponent {
     }
 }
 MediaComponent.ɵfac = function MediaComponent_Factory(t) { return new (t || MediaComponent)(); };
-MediaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MediaComponent, selectors: [["app-media"]], decls: 21, vars: 0, consts: [[1, "mediaCov", 2, "padding", "10px"], [1, "text-center", "text-white"], [1, "container"], [1, "row"], [1, "col-md-4"], ["image", "assets/images/media/Bt-logo.png", "link", "https://news.nus.edu.sg/sites/default/files/resources/news/2019/2019-09/2019-09-26/POLYBEE-bt-26sep-p2.pdf"], ["image", "assets/images/media/Straits_Times_Logo.png", "link", "https://www.straitstimes.com/singapore/buzz-over-drones-that-help-with-pollination"], ["image", "assets/images/media/money_fm.png", "link", "https://www.straitstimes.com/business/money-fm-podcast-polybee-the-future-of-agriculture"], ["image", "assets/images/media/slingshot.png", "description", "Global Top 100 finalist from 2500+ participants"], ["image", "assets/images/media/lky_businessplan.png", "description", "Global top 50 finalist from  850+ participants"], ["image", "assets/images/media/rsz_socialimpact.png", "description", "Global top 10 finalist from 100+ participants"], ["image", "assets/images/media/SGInnovate_Logo.jpg", "description", "We work with SGInnovate on its talent programs like Summation and Infinity."]], template: function MediaComponent_Template(rf, ctx) { if (rf & 1) {
+MediaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MediaComponent, selectors: [["app-media"]], decls: 18, vars: 0, consts: [[1, "mediaCov", 2, "padding", "10px"], [1, "text-center", "text-white"], [1, "container"], [1, "row"], [1, "col-md-3"], ["image", "assets/images/media/Bt-logo.png", "link", "https://news.nus.edu.sg/sites/default/files/resources/news/2019/2019-09/2019-09-26/POLYBEE-bt-26sep-p2.pdf"], ["image", "assets/images/media/Straits_Times_Logo.png", "link", "https://www.straitstimes.com/singapore/buzz-over-drones-that-help-with-pollination"], ["image", "assets/images/media/money_fm.png", "link", "https://www.straitstimes.com/business/money-fm-podcast-polybee-the-future-of-agriculture"], ["image", "assets/images/media/slingshot.png", "description", "Global Top 100 finalist from 2500+ participants"], ["image", "assets/images/media/lky_businessplan.png", "description", "Global top 50 finalist from  850+ participants"], ["image", "assets/images/media/rsz_socialimpact.png", "description", "Global top 10 finalist from 100+ participants"]], template: function MediaComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Media and recognition.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Media and recognition");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
@@ -844,17 +859,13 @@ MediaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "app-media-tile", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "app-media-tile", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "app-media-tile", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "app-media-tile", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "app-media-tile", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "app-media-tile", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -892,10 +903,10 @@ class PartnersComponent {
     }
 }
 PartnersComponent.ɵfac = function PartnersComponent_Factory(t) { return new (t || PartnersComponent)(); };
-PartnersComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PartnersComponent, selectors: [["app-partners"]], decls: 10, vars: 0, consts: [[1, "partners", "my-auto"], [1, "text-center"], [1, "row", "equal"], [1, "col-md"], ["image", "assets/images/partners/SFA.png", "text", "The Agency supports us with horticultural know-how and its network of local growers."], ["image", "assets/images/partners/temasek-foundation.png", "text", "The Foundation supports our development of autonomous pollination methods for indoor farming."], ["image", "assets/images/partners/NUS_Logo.png", "text", "We are alumni of NUSGRIP, the university's deep-tech accelerator."]], template: function PartnersComponent_Template(rf, ctx) { if (rf & 1) {
+PartnersComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PartnersComponent, selectors: [["app-partners"]], decls: 12, vars: 0, consts: [[1, "partners", "my-auto"], [1, "text-center"], [1, "row", "equal"], [1, "col-md"], ["image", "assets/images/partners/SFA.png", "text", "The Agency supports us with horticultural know-how and its network of local growers."], ["image", "assets/images/partners/temasek-foundation.png", "text", "The Foundation supports our development of autonomous pollination methods for indoor farming."], ["image", "assets/images/partners/NUS_Logo.png", "text", "We are alumni of NUSGRIP, the university's deep-tech accelerator."], ["image", "assets/images/media/SGInnovate_Logo.jpg", "text", "We work with SGInnovate on its talent programs like Summation and Infinity."]], template: function PartnersComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Our Partners.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Our Partners");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
@@ -906,6 +917,9 @@ PartnersComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "app-img-text-vertical", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "app-img-text-vertical", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -944,7 +958,7 @@ PilotTrailsComponent.ɵfac = function PilotTrailsComponent_Factory(t) { return n
 PilotTrailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PilotTrailsComponent, selectors: [["app-pilot-trails"]], decls: 9, vars: 0, consts: [[1, "hero"], [1, "hero__title"], [1, "cube"]], template: function PilotTrailsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " We are announcing a global call for pilot trials. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " We are announcing a global call for pilot trials ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "div", 2);
@@ -987,10 +1001,10 @@ class Section1Component {
     }
 }
 Section1Component.ɵfac = function Section1Component_Factory(t) { return new (t || Section1Component)(); };
-Section1Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Section1Component, selectors: [["app-section1"]], decls: 10, vars: 0, consts: [[1, "section1", "my-auto"], [1, "text-center", "text-white"], [1, "row"], [1, "col-md"], ["image", "assets/images/industryProblems/seed.png", "text", "A $50 Bn industry entirely depends on hand pollination for production.", "title", "Hybrid Seeds"], ["image", "assets/images/industryProblems/vertical-farming.png", "text", "A scalable solution for pollination is the industry's biggest bottleneck.", "title", "Indoor Vertical Farming"], ["image", "assets/images/industryProblems/greenhouse.png", "text", "Not all growers are blessed with easy and affordable access to bees.", "title", "Greenhouses"]], template: function Section1Component_Template(rf, ctx) { if (rf & 1) {
+Section1Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Section1Component, selectors: [["app-section1"]], decls: 10, vars: 0, consts: [[1, "section1", "my-auto"], [1, "text-center", "text-white"], [1, "row"], [1, "col-md"], ["image", "assets/images/industryProblems/seed.png", "text", "A $50 Bn industry entirely depends on hand pollination for production.", "title", "Hybrid Seeds"], ["image", "assets/images/industryProblems/vertical-farming.png", "text", "A scalable solution for pollination is the industry's biggest bottleneck.", "title", "Indoor Vertical Farming"], ["image", "assets/images/industryProblems/greenhouse.jpg", "text", "Not all growers are blessed with easy and affordable access to bees.", "title", "Greenhouses"]], template: function Section1Component_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Pollination has been left to chance for too long. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Pollination has been left to chance for too long ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
@@ -1038,10 +1052,10 @@ class Section2Component {
     }
 }
 Section2Component.ɵfac = function Section2Component_Factory(t) { return new (t || Section2Component)(); };
-Section2Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Section2Component, selectors: [["app-section2"]], decls: 6, vars: 0, consts: [[1, "section2"], [1, "text-center"], ["image", "assets/banner.jpg", "title", "Grow more from less.", "subtitle1", "Greenhouses and vertical farming", "para1", "Increase and track yields accurately through precision pollination to get the most out of every crop.", "para2", "Enhance quality of produce with higher quality of pollination. Our method of self-pollination promises to maximize the degree of fertilization of every flower, leading to lower rejection rates.", "para3", "We are offering pilots for pollination of strawberries, tomatoes, pepper and eggplant in greenhouses and vertical farms."], ["image", "assets/images/bayer-demo.gif", "imgRight", "true", "title", " Accelerate hybrid seed development.", "subtitle1", "Autonomous self-pollination", "para1", "Increase self efficiency and eliminate the inconsistencies of manual and bee pollination.", "subtitle2", "Autonomous cross pollination in hybridization", "para2", "Valuable germplasm is lost each time cross-pollination is done improperly. With autonomous miniature drones, perform targeted crosses at just the right time to obtain clear outcomes for your trials. ", "para3", "We are offering pilots for pollination of strawberries, tomatoes, pepper and eggplant in greenhouses and vertical farms.", "blueBack", "true"], ["image", "assets/images/mac-fullpage.png", "title", "Lightning fast workflow with phenobee", "subtitle1", "Collect high-resolution data", "para1", "Collect high-resolution data from your crops with our drone technology.", "subtitle2", "Phenobee, a software platform for trait analysis", "para2", "Phenobee is a state of the art analysis platform powered by cloud technology and bleeding edge computer vision and AI. Use it to analyse and compare traits from your crops", "para3", "Currently, we are offering phenotyping services for watermelon, tomato, pepper and cucumber."]], template: function Section2Component_Template(rf, ctx) { if (rf & 1) {
+Section2Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Section2Component, selectors: [["app-section2"]], decls: 6, vars: 0, consts: [[1, "section2"], [1, "text-center"], ["image", "assets/images/solutions/verticalFarming.png", "title", "Grow more from less", "subtitle1", "Greenhouses and vertical farming", "para1", "Increase and track yields accurately through precision pollination to get the most out of every crop.", "para2", "Enhance quality of produce with higher quality of pollination. Our method of self-pollination promises to maximize the degree of fertilization of every flower, leading to lower rejection rates.", "para3", "We are offering pilots for pollination of strawberries, tomatoes, pepper and eggplant in greenhouses and vertical farms."], ["image", "assets/images/solutions/bayer-demo.gif", "imgRight", "true", "title", " Accelerate hybrid seed development", "subtitle1", "Autonomous self-pollination", "para1", "Increase self efficiency and eliminate the inconsistencies of manual and bee pollination.", "subtitle2", "Autonomous cross pollination in hybridization", "para2", "Valuable germplasm is lost each time cross-pollination is done improperly. With autonomous miniature drones, perform targeted crosses at just the right time to obtain clear outcomes for your trials. ", "blueBack", "true"], ["image", "assets/images/solutions/mac-fullpage.png", "title", "Lightning fast workflow with phenobee", "subtitle1", "Collect high-resolution data", "para1", "Collect high-resolution data from your crops with our drone technology.", "subtitle2", "Phenobee, a software platform for trait analysis", "para2", "Phenobee is a state of the art analysis platform powered by cloud technology and bleeding edge computer vision and AI. Use it to analyse and compare traits from your crops", "para3", "Currently, we are offering phenotyping services for watermelon, tomato, pepper and cucumber."]], template: function Section2Component_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Our Solutions.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Our Solutions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-solution-component", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-solution-component", 3);
