@@ -6,28 +6,27 @@
 - [rxjs and it's infinite cool operators](https://netbasal.com/reactive-sticky-header-in-angular-12dbffb3f1d3)
 - [darken background image](https://stackoverflow.com/a/26621579/6274300)
 
+# Deployment:
+### Code:
+Create a production build with
+```
+ng build --prod
+```
+This gets saved in `dist/`, and the files will be in `dist/polybeeWebsite`. Create a `.zip` file in here (`dist/polybeeWebsite.zip`). We'll need it for uploading to namecheap.
+### Namecheap
+- Go to the dashboard, and get to `Cpanel` by clicking the storage icon (the icon in the middle of the products section)
+![image](https://user-images.githubusercontent.com/17317792/92896429-f0097700-f44e-11ea-8cc4-3a2519dcf614.png)
+- go to `File Manager`
+![image](https://user-images.githubusercontent.com/17317792/92896505-01528380-f44f-11ea-92da-b647acb12776.png)
+- Go to the `public_html` folder. Use the action bar on the top to select all and delete everything in here.
+![image](https://user-images.githubusercontent.com/17317792/92896548-0b748200-f44f-11ea-9dc9-ef535a2d380c.png)
+- Uploading folders is not possible, so the easiest way is to upload the contents are: 
+    - upload the `.zip` file mentioned earlier
+    - extract it.
+    - go to the extracted folder, and using the action bar on top, move all files to the root of `public_html`.
+    - delete the zip file and the empty folder
+- Celebrate! 🎉
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
