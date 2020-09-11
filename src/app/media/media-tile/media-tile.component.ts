@@ -13,4 +13,10 @@ export class MediaTileComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  openLink() {
+    if (this.link) {
+      window.open(this.link, 'blank');
+    }
+  }
 }

@@ -1,6 +1,10 @@
 <div
   class="customcard d-flex align-items-center justify-content-center"
   data-aos="fade-up"
+  (click)="openLink()"
+  [ngStyle]="{
+    cursor: link ? 'pointer' : null
+  }"
 >
   <img class="img-fluid" [src]="image" alt="" />
 
@@ -12,6 +16,7 @@
     *ngIf="link"
     class="mediaAddOn"
     nbButton
+    style="background-color: white; border: 0px"
     size="large"
     outline
     [href]="link"
