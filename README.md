@@ -5,6 +5,7 @@
 - [scroll to ele](https://stackoverflow.com/a/43945776/6274300), and do it [smoothly](https://usefulangle.com/post/156/javascript-scroll-to-element)
 - [rxjs and it's infinite cool operators](https://netbasal.com/reactive-sticky-header-in-angular-12dbffb3f1d3)
 - [darken background image](https://stackoverflow.com/a/26621579/6274300)
+- `fade-right` animation fucks up animations and stuff
 
 # Deployment:
 ### Code:
