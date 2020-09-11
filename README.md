@@ -11,7 +11,7 @@
 ### Code:
 Create a production build with
 ```
-ng build --prod
+npm run build
 ```
 This gets saved in `dist/`, and the files will be in `dist/polybeeWebsite`. Create a `.zip` file in here (`dist/polybeeWebsite.zip`). We'll need it for uploading to namecheap.
 ### Namecheap
