@@ -6,7 +6,7 @@
 }
 .solution {
   min-height: 90vh;
-  padding:40px;
+  padding: 40px;
   display: flex;
   justify-items: center;
   place-items: center;
@@ -16,10 +16,9 @@
   // box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
-// .solnContent {
-//   padding-right: 40px;
-//   padding-left: 40px;
-// }
+.row {
+  margin: 0;
+}
 
 .para {
   font-size: large;
