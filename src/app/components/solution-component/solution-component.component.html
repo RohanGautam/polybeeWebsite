@@ -11,14 +11,15 @@
       'text-align': !imgRight ? 'end' : 'start'
     }"
   >
-    <!-- <img
+    <img
       *ngIf="imgRight"
       class="img-fluid solnImage"
       [src]="image"
       alt=""
       data-aos="fade-left"
-    /> -->
+    />
     <img
+      *ngIf="!imgRight"
       class="img-fluid solnImage"
       [src]="image"
       alt=""
