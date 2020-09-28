@@ -21,7 +21,9 @@ $nb-themes: nb-register-theme(
     // header-background-color: #ffffff00
     // footer-background-color: #ffffff00
     // header-shadow: (0, 0, 0, 0, white),
-    layout-padding: 0px
+    layout-padding: 0px,
+    layout-small-padding: 0px,
+    layout-medium-padding: 0px
   ),
   default,
   default
