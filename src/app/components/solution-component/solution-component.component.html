@@ -27,7 +27,9 @@
     />
   </div>
   <div class="col-md-6 solnContent">
-    <h3 [ngStyle]="{ color: blueBack ? 'white' : null }">{{ title }}</h3>
+    <h3 [ngStyle]="{ color: blueBack ? 'white' : null }" class="title">
+      {{ title }}
+    </h3>
     <h6 [ngStyle]="{ color: blueBack ? 'white' : null }">{{ subtitle1 }}</h6>
     <p class="para" [ngStyle]="{ color: blueBack ? 'white' : null }">
       {{ para1 }}
