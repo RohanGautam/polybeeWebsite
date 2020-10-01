@@ -1,11 +1,5 @@
 <nb-layout>
-  <nb-layout-header
-    [@toggle]="headerShown ? 'showHeader' : 'hideHeader'"
-    fixed
-    [ngStyle]="{
-      'background-image': 'url(assets/images/illustration-section-01.svg)'
-    }"
-  >
+  <nb-layout-header [@toggle]="headerShown ? 'showHeader' : 'hideHeader'" fixed>
     <div class="row">
       <div class="col-6 col-sm-2">
         <img
